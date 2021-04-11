@@ -2,7 +2,7 @@
 html{font-size: 100%;}
 body{
   line-height: 1.7;
-  color: #432;
+  color: #443322;
 }
 a {text-decoration: none;}
 img {max-width: 100%;}
@@ -25,7 +25,7 @@ img {max-width: 100%;}
 }
 
 .main-nav a {
-  color: #432;
+  color: #eeebe7;
 }
 .main-nav a:hover {
   color: #0bd;
@@ -77,13 +77,23 @@ img {max-width: 100%;}
 #home .page-title {
   text-transform: none;
 }
-
-#news {
+.page-header {
   background-image: url(../img/ムーン2.jpg);
   height: 270px;
   margin-bottom: 40px;
+
 }
-#news .page-title {
+.page-title {
   text-align: center;
+}
+footer {
+  background: black;
+  text-align: center;
+  padding: 26px 0;
+}
+footer p {
+  color: aliceblue;
+  font-size: 0.875rem;
+
 
 }
