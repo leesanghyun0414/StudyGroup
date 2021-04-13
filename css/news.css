@@ -136,3 +136,74 @@ padding-top: 10px;
 .post-cat {margin-left: 120px}
 article img {margin-bottom: 20px}
 article p{margin-bottom: 1rem}
+article img {
+  margin-bottom: 20px;
+}
+article p {
+  margin-bottom: 1rem;
+}
+.sub-title {
+  font-size: 1.375rem;
+  padding: 0 8px 8px;
+  border-bottom: 2px #3181c6 solid;
+  font-weight: normal;
+}
+aside p {
+  padding: 12px 10px;
+}
+.sub-menu {
+  margin-bottom: 60px;
+  list-style: none;
+}
+.sub-menu li {
+  border-bottom: 1px #ddd solid;
+}
+.sub-menu a {
+  color: #432;
+  padding: 10px;
+  display: block;
+}
+.sub-menu a:hover {
+  color: #7496db;
+}
+@media (max-width: 600px) {
+  h1{color: #3181c6}
+.page-header {
+  flex-direction: column;
+  align-items: center;
+}
+
+}
+@media (max-width: 600px) {
+  .page-title {font-size: 2.5rem}
+  .news-contents {flex-direction: column}
+  article, aside{width: 100%}
+
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {margin: 0 20px}
+  .home-content {margin-top: 20px}
+
+#news .page-title {margin-top: 30px}
+aside {margin-top: 60px}
+.post-info {margin-bottom: 30px}
+.post-date {
+  width: 70px;
+  height: 70px;
+font-size: 1rem;
+}
+.post-date span {
+  font-size: 0.875rem;
+  padding-top: 2px;
+}
+.post-title {font-size: 1.375rem}
+.post-ca{
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+.post-title,
+.post-cat {margin-left: 80px}
+
+}
