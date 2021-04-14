@@ -95,8 +95,13 @@ footer p {
   color: aliceblue;
   font-size: 0.875rem;
 }
-article {width: 74%;}
-aside {width: 22%;}
+article {width: 60%;
+order: 2;
+}
+aside {width: 22%;
+order: 3;
+}
+.ad {order: 1;}
 .news-contents {
   display: flex;
   justify-content:  space-between;
