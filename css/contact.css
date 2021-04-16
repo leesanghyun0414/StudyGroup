@@ -39,10 +39,7 @@ img {max-width: 100%;}
   display: flex;
   justify-content: space-between;
 }
-.page-header {
-  background-image: url("../img/ムーン2.jpg");
-min-height: 50vh;
-}
+
 #menu.page-title{text-align: center}
 .page-title {
   font-size: 3rem;
@@ -62,6 +59,46 @@ min-height: 50vh;
 .page-title {
   text-align: center;
 }
+#contact {
+  background-image: url("../img/アピーチ①.png");
+  min-height: 100vh;
+}
+
+form div {margin-bottom: 14px;}
+label {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255,255,255,.5);
+  border: 1px #ffffff solid;
+  border-radius: 5px;
+  padding: 10px;
+font-size: 1rem;
+}
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  max-width: 240px;
+}
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+input[type="submit"]{
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+
+
+
+
 
 
 @media (max-width: 600px) {
@@ -77,18 +114,24 @@ min-height: 50vh;
   .news-contents {flex-direction: column}
   article, aside{width: 100%}
 
+  #contact .page-title {margin-top: 40px;}
+input[type="text"],
+input[type="email"],
+textarea {max-width: 100%}
+
+
   .main-nav {
     font-size: 1rem;
     margin-top: 10px;
   }
   .main-nav li {margin: 0 20px}
   .home-content {margin-top: 20px}
-.menu-content{margin-top: 20%}
+  .menu-content{margin-top: 20%}
 
-.big-box {
-  grid-column: auto;
-  grid-row: auto;
-}
+  .big-box {
+    grid-column: auto;
+    grid-row: auto;
+  }
   #news .page-title {margin-top: 30px}
   aside {margin-top: 60px}
   .post-info {margin-bottom: 30px}
@@ -108,7 +151,7 @@ min-height: 50vh;
   }
   .post-title,
   .post-cat {margin-left: 80px}
-.menu-content {margin-top: 20%}
+  .menu-content {margin-top: 20%}
 }
 footer {
   background: black;
@@ -135,14 +178,14 @@ footer p {
   display: grid;
   gap: 26px;
   grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
-margin-top: 6%;
+  margin-top: 6%;
   margin-bottom: 50px;
 }
 .big-box {grid-column: 1/3;
-grid-row: 1/3;
+  grid-row: 1/3;
 }
 .big-box img {
   height: 94%;
   width: 100%;
-object-fit: cover;
+  object-fit: cover;
 }
