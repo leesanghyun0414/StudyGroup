@@ -4,8 +4,10 @@ body{
   line-height: 1.7;
   color: black;
 }
-
+a{font-family: "游明朝 Demibold", serif}
 a {text-decoration: none;}
+a{font-weight: 900;}
+
 .main-nav {
   display: flex;
   font-size: 1.25rem;
@@ -44,4 +46,24 @@ li{padding-right: 20px}
 .second-main{font-weight: 900;}
 .second-main div:hover {color: blueviolet}
 .second-main{border-bottom: 2px solid #000000}
-.news{}
+.basic1{padding-left: 250px}
+.basic1{padding-right: 1300px}
+.news{font-size: 30px}
+.news{border-top:8px solid black}
+.border {border-style: solid
+}
+footer{padding-bottom: 300px;
+
+
+}
+
+
+
+
+@media (max-width: 600px){
+.news{font-size: 100%}
+.news{border-top:8px solid black}
+.basic1{padding-left: 150px}
+.basic1{padding-right: 30px}
+}
+
