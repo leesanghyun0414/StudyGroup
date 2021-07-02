@@ -25,12 +25,18 @@ a{font-weight: 900;}
   display: flex;
   justify-content: space-between;
 }
+.wrapper {
+  max-width: 2500px;
+  margin: 0 auto;
+padding: 0 4%;
+}
+
 h1{font-size: 500%;
 margin-top: 5px;
 }
 .page-header{border-bottom: 2px solid #cccccc}
-label{border-right: 1px solid#cccccc}
-label{padding-right: 20px}
+.country-name1{border-right: 1px solid#cccccc}
+.country-name1{padding-right: 20px}
 li{border-right: 1px solid#cccccc}
 li{padding-right: 20px}
 
@@ -53,10 +59,59 @@ li{padding-right: 20px}
 .border {border-style: solid
 }
 footer{padding-bottom: 300px;
-
-
 }
 
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(3,1fr);
+margin-top: 6%;
+margin-bottom: 50px;
+}
+.second-title {
+display: flex;
+  font-size: 3.15rem;
+height: 20%;
+  list-style: none;
+  text-transform: uppercase;
+  padding-left: 600px;
+}
+
+.edition {font-size: 2.15rem;
+margin-top: 15px;
+}
+
+.country-name {
+  width: 110px;
+font-size:35px;
+}
+
+.icon {display: flex;
+  height: 20%;
+padding-left: 280px;
+}
+.third-title {
+  font-size: 3.10rem;
+  padding-left: 245px;
+  margin-bottom: 0;
+  height: 60px;
+}
+h4 {
+  font-size: 1.15rem;
+padding-left: 410px;
+ margin-top: 0;
+  margin-bottom: 0;
+}
+.one {
+  margin: 10px;
+  padding: 10px;
+}
+.choice {
+display: flex;
+  font-weight: bolder;
+font-size: 20px;
+  padding-left: 210px;
+}
 
 
 
