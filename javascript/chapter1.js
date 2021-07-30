@@ -1,35 +1,22 @@
 
-let todo = ['デザインカンプ作成', 'データ整理','勉強会申し込み','牛乳買う'];
-todo.push('歯医者に行く');
-for(let item of todo){
-  const li = `<li>${item}</li>`;
-document.getElementById('list').insertAdjacentHTML('beforeend',li);
+'use strict';
+
+const images = ['../img/fashion2.jpg','../img/fashion3.jpg','../img/fashion4.jpg','../img/fashion5.jpg',
+  '../img/fashion6.jpg'];
+let current = 0;
+
+function changeImage(num){
+  if (current + num >= 0 && current + num < images.length){
+    current += num;
+    document.getElementById('main_image').src = images[current];
+  }
 }
 
-
-
-
-
-.country-name2 {margin-top: 22px;}
-
-
-margin-top: 1px;
-list-style: none;
-justify-content: flex-end;
-padding-right: 10px;
-text-transform: uppercase;
-
-padding-top: 150px;
-
-
-
-.icon {display: flex;
-  height: 20%;
-
-}
-.second-title {
-  height: 40%;
-
-}
+document.getElementById('prev').onclick = function () {
+  changeImage(-1);
+};
+document.getElementById('next').onclick = function () {
+changeImage(1);
+};
 
 

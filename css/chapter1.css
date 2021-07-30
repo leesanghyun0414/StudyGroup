@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.slide {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 720px;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+.toolbar {
+  overflow: hidden;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+}
+
+#prev {
+  margin-right: 0.5rem;
+  width: 16px;
+  height: 16px;
+  background: url(img/arrow-left.svg) no-repeat;
+}
+#next {
+  margin-left: 0.5rem;
+  width: 16px;
+  height: 16px;
+  background: url(img/arrow-right.svg)no-repeat;
+}
+
+#page {
+  color: white;
+}
