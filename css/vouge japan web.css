@@ -47,6 +47,11 @@ li{padding-right: 20px}
   margin-top: 34px;
   list-style: none;
 }
+
+.second-main{
+  cursor: default;
+}
+
 .second-main div{margin-left: 36px}
 .second-main{font-family: Constantia, serif}
 .second-main{font-weight: 900;}
@@ -70,15 +75,6 @@ margin-bottom: 50px;
 margin-top: 15px;
 color: white;
 }
-
-.country-name {
-  width: 110px;
-font-size:35px;
-color: darkslateblue;
-}
-
-
-
 
 
 
@@ -109,6 +105,9 @@ footer {
   padding:1rem;
 }
 
+.flex-container{
+  cursor: default;
+}
 .edition-select-container {
 
   font-size: 1rem;
@@ -126,3 +125,36 @@ footer {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.conde-nest{
+ text-align: center;
+ font-weight: bold;
+ font-size: 3rem;
+ line-height: 0;
+}
+
+.country-name{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height:0;
+}
+
+.sns-container{
+  margin: 0 auto;
+}
+
+.panel-container{
+  display: inline-flex;
+  margin: 0 auto;
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+.panel-container > p:hover{color: blueviolet}
+
+.infomation-container{
+  display: inline-flex;
+  margin: 0 auto;
+  column-gap: 1.5rem;
+}
+.infomation-container > p:hover{color: blueviolet}
