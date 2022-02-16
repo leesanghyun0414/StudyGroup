@@ -65,12 +65,11 @@ margin-top: 6%;
 margin-bottom: 50px;
 }
 .second-title {
-display: flex;
+display: inline-flex;
   font-size: 3.15rem;
 height: 20%;
   list-style: none;
   text-transform: uppercase;
-  padding-left: 1400px;
 color: white;
 }
 
@@ -85,25 +84,21 @@ font-size:35px;
 color: darkslateblue;
 }
 
-.icon {display: flex;
+.icon {display: inline-flex;
   height: 20%;
-padding-left: 820px;
   color: white;
 }
 .material-icons {font-size: 60px}
 
 .third-title {
   font-size: 3.10rem;
-  padding-left: 770px;
-  margin-bottom: 0;
   height: 60px;
+  text-align: center;
 color: white;
 }
 h4 {
   font-size: 1.15rem;
-padding-left: 930px;
- margin-top: 0;
-  margin-bottom: 0;
+  text-align: center;
 color: white;
 }
 .one {
@@ -112,17 +107,15 @@ color: white;
   color: white;
 }
 .choice {
-display: flex;
+display: inline-flex;
   font-weight: bolder;
 font-size: 20px;
-  padding-left: 730px;
 }
 .one:hover {color: blueviolet}
 .contact {
-  display: flex;
+  display: inline-flex;
 font-weight: bold;
 font-size: 13px;
-padding-left: 580px;
 color: white;
 }
 .two {
@@ -131,18 +124,7 @@ color: white;
 }
 .two:hover {color: blueviolet}
 
-.cookie-preferences {
-  border-style: solid;
-  border-width: 1px;
-  width: 200px;
-height: 50px;
-  padding-left: 50px;
-  padding-top: 20px;
-  margin-left: 840px;
-  font-weight: bold;
-  color: white;
-}
-.cookie-preferences:hover {color: blueviolet}
+
 
 .footer-name {
   text-align: center;
@@ -151,10 +133,13 @@ height: 50px;
 
 
 footer {
+  display: flex;
+  flex-flow: row;
   background: #555555;
   color: white;
 height: 20%;
 }
+
 
 @media (max-width: 600px){
 .news{font-size: 100%}
