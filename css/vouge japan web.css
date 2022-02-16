@@ -64,14 +64,7 @@ li{padding-right: 20px}
 margin-top: 6%;
 margin-bottom: 50px;
 }
-.second-title {
-display: inline-flex;
-  font-size: 3.15rem;
-height: 20%;
-  list-style: none;
-  text-transform: uppercase;
-color: white;
-}
+
 
 .edition {font-size: 2.15rem;
 margin-top: 15px;
@@ -84,45 +77,8 @@ font-size:35px;
 color: darkslateblue;
 }
 
-.icon {display: inline-flex;
-  height: 20%;
-  color: white;
-}
-.material-icons {font-size: 60px}
 
-.third-title {
-  font-size: 3.10rem;
-  height: 60px;
-  text-align: center;
-color: white;
-}
-h4 {
-  font-size: 1.15rem;
-  text-align: center;
-color: white;
-}
-.one {
-  margin: 10px;
-  padding: 10px;
-  color: white;
-}
-.choice {
-display: inline-flex;
-  font-weight: bolder;
-font-size: 20px;
-}
-.one:hover {color: blueviolet}
-.contact {
-  display: inline-flex;
-font-weight: bold;
-font-size: 13px;
-color: white;
-}
-.two {
-  margin: 10px;
-  padding: 3px;
-}
-.two:hover {color: blueviolet}
+
 
 
 
@@ -133,11 +89,10 @@ color: white;
 
 
 footer {
-  display: flex;
-  flex-flow: row;
+
   background: #555555;
   color: white;
-height: 20%;
+
 }
 
 
@@ -148,4 +103,26 @@ height: 20%;
 .basic1{padding-right: 30px}
 }
 
+.flex-container{
+ display: flex;
+  flex-direction: column;
+  padding:1rem;
+}
 
+.edition-select-container {
+
+  font-size: 1rem;
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: auto;
+  column-gap: 1rem;
+}
+
+.edition-select-container > p{
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.edition-select-container > label{
+  margin-top: auto;
+  margin-bottom: auto;
+}
